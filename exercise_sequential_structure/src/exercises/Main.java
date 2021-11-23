@@ -8,8 +8,8 @@ public class Main {
 	public static void main(String[] args) {
 		
 		//exerciseOne();
-		System.out.println();
-		exerciseTwo();
+		//exerciseTwo();
+		exerciseTre();
 	}
 	
 	public static void exerciseOne() {
@@ -37,7 +37,7 @@ public class Main {
 		
 	}
 	
-	//Primeiro Concluido 
+	//Segundo Concluido 
 	public static void exerciseTwo() {
 		
 		Locale.setDefault(Locale.US);
@@ -52,6 +52,27 @@ public class Main {
 		
 		System.out.println("SOMA = " + soma);
 		
+		sc.close();
 	}
+	
+	//terceiro Ex - 
+	
+	public static void exerciseTre() {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		double tt = 3.14159;
+		
+		System.out.print("digite o valor do raio: ");
+		double raio = sc.nextDouble();
+		
+		double area = tt * Math.pow(raio,2.0);
+		
+		System.out.printf("A = %.4f ",area);
+		
+		sc.close();
+	}
+	
+	
 
 }
