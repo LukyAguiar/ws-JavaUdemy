@@ -11,6 +11,7 @@ public class Main {
 		//exerciseTwo();
 		//exerciceTre();
 		//exerciceFor();
+		exerciceFive();
 	}
 	
 	public static void exerciseTest() {
@@ -112,5 +113,40 @@ public class Main {
 		System.out.printf("NUMBER = %d %n",codFunc);
 		System.out.printf("SALARY = %.2f", salario);
 	}
+	
+	public static void exerciceFive(){
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite o código da Peça 1: ");
+		int codPeca1 = sc.nextInt(); 
+		
+		System.out.printf("Quantas peças da %d você deseja? ", codPeca1);
+		int numPeca1 = sc.nextInt();
+		
+		System.out.printf("Qual seria o valor unitário de cada peça %d? ", codPeca1);
+		double valPeca1 = sc.nextDouble();
+		
+		System.out.println();
+		System.out.println("Digite a segunda peça!");
+		System.out.println();
+		
+		System.out.print("Digite o código da Peça 2: ");
+		int codPeca2 = sc.nextInt();
+		
+		System.out.printf("Quantas peças da %d você deseja? ", codPeca2);
+		int numPeca2 = sc.nextInt();
+		
+		System.out.printf("Qual seria o valor unitário de cada peça %d? ", codPeca2);
+		double valPeca2 = sc.nextDouble();
+		
+		double valorApagar = (numPeca1 * valPeca1) + (numPeca2 * valPeca2);
+		
+		System.out.println();
+		
+		System.out.printf("Valor a Pagar: R$ %.2f", valorApagar);
+	}
+	
 
 }
