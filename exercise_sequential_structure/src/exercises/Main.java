@@ -9,10 +9,10 @@ public class Main {
 		
 		//exerciseOne();
 		//exerciseTwo();
-		exerciseTre();
+		exerciceTre();
 	}
 	
-	public static void exerciseOne() {
+	public static void exerciseTest() {
 		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
@@ -38,7 +38,7 @@ public class Main {
 	}
 	
 	//Segundo Concluido 
-	public static void exerciseTwo() {
+	public static void exerciseOne() {
 		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
@@ -57,7 +57,7 @@ public class Main {
 	
 	//terceiro Ex - 
 	
-	public static void exerciseTre() {
+	public static void exerciseTwo() {
 		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
@@ -73,6 +73,24 @@ public class Main {
 		sc.close();
 	}
 	
+	public static void exerciceTre() {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite um valor inteiro para A: ");
+		int A = sc.nextInt();
+		System.out.print("Digite um valor inteiro para B: ");
+		int B = sc.nextInt();
+		System.out.print("Digite um valor inteiro para C: ");
+		int C = sc.nextInt();
+		System.out.println("Digite um valor inteiro para D: ");
+		int D = sc.nextInt();
+		
+		int result = (A * B - C * D );
+		
+		System.out.println("Diferença = " + result);
+	}
 	
 
 }
