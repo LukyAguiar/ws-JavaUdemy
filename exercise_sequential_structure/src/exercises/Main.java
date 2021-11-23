@@ -11,7 +11,8 @@ public class Main {
 		//exerciseTwo();
 		//exerciceTre();
 		//exerciceFor();
-		exerciceFive();
+		//exerciceFive();
+		exerciceSix();
 	}
 	
 	public static void exerciseTest() {
@@ -146,6 +147,43 @@ public class Main {
 		System.out.println();
 		
 		System.out.printf("Valor a Pagar: R$ %.2f", valorApagar);
+	}
+	
+	public static void exerciceSix() {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite um valor flutuante de dupla precisão para A: ");
+		double A = sc.nextDouble();
+		
+		System.out.print("Digite um valor flutuante de dupla precisão para B: ");
+		double B = sc.nextDouble();
+		
+		System.out.print("Digite um valor flutuante de dupla precisão para C: ");
+		double C = sc.nextDouble();
+		
+		System.out.println();
+		
+		//Calc Área Triangulo
+		double areaTriangulo = A*C/2;
+		System.out.printf("TRIANGULO: %.3f %n" , areaTriangulo);
+		
+		//Calc Área Circulo
+		double areaCirculo = 3.14159 * Math.pow(C, 2.0);
+		System.out.printf("CIRCULO: %.3f %n", areaCirculo);
+		
+		//Calc Área Trapezio
+		double areaTrapezio = (A + B) * C /2;
+		System.out.printf("TRAPEZIO: %.3f %n", areaTrapezio);
+		
+		//Calc Área Quadrado
+		double areaQuadrado = Math.pow(B, 2.0);
+		System.out.printf("QUADRADO: %.3f %n", areaQuadrado);
+		
+		//Cal Área Retangulo
+		double areaRetangulo = A * B;
+		System.out.printf("RETANGULO: %.3f", areaRetangulo);
 	}
 	
 
