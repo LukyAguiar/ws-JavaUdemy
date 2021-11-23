@@ -9,7 +9,8 @@ public class Main {
 		
 		//exerciseOne();
 		//exerciseTwo();
-		exerciceTre();
+		//exerciceTre();
+		//exerciceFor();
 	}
 	
 	public static void exerciseTest() {
@@ -37,6 +38,7 @@ public class Main {
 		
 	}
 	
+	
 	//Segundo Concluido 
 	public static void exerciseOne() {
 		
@@ -55,7 +57,6 @@ public class Main {
 		sc.close();
 	}
 	
-	//terceiro Ex - 
 	
 	public static void exerciseTwo() {
 		
@@ -72,6 +73,7 @@ public class Main {
 		
 		sc.close();
 	}
+	
 	
 	public static void exerciceTre() {
 		
@@ -92,5 +94,23 @@ public class Main {
 		System.out.println("Diferença = " + result);
 	}
 	
+	
+	public static void exerciceFor() {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite o número do Funcionario: ");
+		int codFunc = sc.nextInt(); 
+		System.out.print("Digite o número de horas trabalhadas: ");
+		double horasTrab = sc.nextDouble();
+		System.out.print("Digite o Valor das horas trabalhadas: ");
+		double valorHorasTrab = sc.nextDouble();
+		
+		double salario = horasTrab * valorHorasTrab;
+		
+		System.out.printf("NUMBER = %d %n",codFunc);
+		System.out.printf("SALARY = %.2f", salario);
+	}
 
 }
