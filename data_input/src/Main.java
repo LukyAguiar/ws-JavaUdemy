@@ -31,7 +31,7 @@ public class Main {
 		
 		System.out.print("Digite uma Palavra: ");
 		x = sc.next();
-		System.out.println("Você digitou: " + x);
+		System.out.println("Vocï¿½ digitou: " + x);
 		
 	
 	}
@@ -42,9 +42,9 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int x; 
 		
-		System.out.print("Digite um número Inteiro: ");
+		System.out.print("Digite um nï¿½mero Inteiro: ");
 		x = sc.nextInt();
-		System.out.println("Você digitou: " + x );
+		System.out.println("Vocï¿½ digitou: " + x );
 		
 		
 	}
@@ -54,9 +54,9 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		double x;
 		
-		System.out.print("Digite um número double: ");
+		System.out.print("Digite um nï¿½mero double: ");
 		x = sc.nextDouble();
-		System.out.println("Você digitou: " + x);
+		System.out.println("Vocï¿½ digitou: " + x);
 	}
 	
 	//Entrada de Char
@@ -67,7 +67,7 @@ public class Main {
 		
 		System.out.print("Digite um caractere: ");
 		x = sc.next().charAt(0);
-		System.out.println("Você digitou:" + x );
+		System.out.println("Vocï¿½ digitou:" + x );
 	}
 	
 	//Exemplo Varias entradas de Teste
@@ -79,10 +79,10 @@ public class Main {
 		char z;
 		double c;
 		
-		System.out.print("Digite um número Inteiro: ");
+		System.out.print("Digite um nï¿½mero Inteiro: ");
 		x = sc.nextInt();
 		
-		System.out.print("Digite um número flutuante: ");
+		System.out.print("Digite um nï¿½mero flutuante: ");
 		c = sc.nextDouble();
 		
 		System.out.print("Digite uma Palavra: ");
@@ -91,7 +91,7 @@ public class Main {
 		System.out.print("Digite um caractere:");
 		z = sc.next().charAt(0);
 		
-		System.out.printf("O valores colocados nas variaveis são x: %d - c: %.2f - y: %s -  z: %s", x,c,y,z);
+		System.out.printf("O valores colocados nas variaveis sï¿½o x: %d - c: %.2f - y: %s -  z: %s", x,c,y,z);
 		
 	}
 	
@@ -112,7 +112,8 @@ public class Main {
 		System.out.println(s1);
 		System.out.println(s2);
 		System.out.println(s3);
-		
+		System.out.println("Batatinha");
+		System.out.println("BATATA");
 		sc.close();
 				
 	}
